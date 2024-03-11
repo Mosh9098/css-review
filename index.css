@@ -12,3 +12,20 @@ text-align: center;
 p{
     color: forestgreen;
 }
+.flex-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px red;
+}
+.flex-item{
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    padding: 40px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(60, 57, 241);
+}
